@@ -1,0 +1,42 @@
+h1{
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;;
+  font-size: 250%;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+}
+
+.costar_logo{
+  width: 280px;
+  height: 100px;
+  margin-top: -20px;
+  margin-left: -25px;
+}
+
+.navbar{
+  display: flex;
+}
+
+.nav_links{
+  display: flex;
+}
+
+.container{
+  flex: 1;
+}
+
+a{
+  color: #123456;
+  padding-right: 20px;
+}
+
+a:hover{
+  color:rgb(139, 41, 41);
+}
+
+a:link{
+  text-decoration: none;
+}

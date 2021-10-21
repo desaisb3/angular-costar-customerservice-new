@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container">
+    <a routerLink="/"><img class="costar_logo" src="https://mlt.org/wp-content/uploads/2019/01/costar-logo.jpg" alt=""></a>
+  </div>
+
+  <nav>
+    <div class="nav_links">
+      <a routerLink="/"><h3>Home</h3></a>
+      <a routerLink="/about"><h3>About</h3></a>
+      <a routerLink="/customerservice"><h3>Support</h3></a>
+      <a routerLink="/agent"><h3>Agent</h3></a>
+    </div>
+  </nav>
+</div>
+
+<router-outlet></router-outlet>
+<!-- Routed views go here -->
+
+
+</body>
+</html>
+
